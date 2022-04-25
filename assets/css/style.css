@@ -1,0 +1,170 @@
+*{padding: 0px;
+margin: 0px;}
+
+.logo { height: 70px;
+box-shadow: 0 15px 50px rgba(0, 0, 0, 0.233);}
+
+.logo:hover{transform: scale(1.1);
+transition: all 0.5s;
+box-shadow: 0 15px 50px rgba(0, 0, 0, 0.582);}
+
+.nav li{font-family: 'Courier New', Courier, monospace;}
+
+.alert{text-align: center;}
+.carousel-inner img{height: 420px;
+width: 100%;
+object-fit: cover;}
+
+.carta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.carta img{
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.carta:hover{border: #CE9461 solid 2px;
+border-radius: 10px;}
+.carta:hover img{ filter: grayscale(100%);
+transition: all 0.5s;}
+
+.boton__carta{ 
+    margin: 5px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: #E0D8B0;
+    text-decoration: none;
+    color: black;}
+
+.boton__carta:hover{
+    background-color: #CE9461;
+    color: #f8f4df;
+    transition: all 0.5s;
+}
+
+.separador{
+    background-color: #E0D8B0;
+text-align: center;
+letter-spacing: 10px;
+padding: 10px;
+}
+
+.social{
+    background: #E0D8B0;
+    box-shadow: #2b2b2b 0 10px 30px;
+}
+
+.social a{
+    opacity: 50%;
+}
+
+.social a:hover{
+    opacity: 100%;
+    transition: all 1s;
+}
+
+.copy{
+    background-color: #CE9461;
+    color: white;
+    text-align: center;   
+}
+
+.copy a{ color: aliceblue;}
+
+.navegador{background-color: #E0D8B0;
+color: aliceblue;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.342);}
+
+.parallax{ background-image: url(../img/main.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    padding-bottom: 90px;}
+
+.cartel__presentacion{
+  
+  background-color: rgba(219, 183, 91, 0.37);
+  margin-top: 50px;
+  padding: 50px 80px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color:rgb(46, 41, 31);   
+}
+
+.historia{
+    display: flex;
+    flex-wrap: wrap;
+    border: #E0D8B0 3px solid;
+}
+
+.historia:hover img{ filter: grayscale(100%);
+transition: all 1s; } 
+
+
+.receta{ border-top: solid 3px #E0D8B0;
+    padding: 30px;
+    border-bottom: solid #E0D8B0 5px;
+}
+
+.receta img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.video__container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../img/textura.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video{ margin: 20px;
+border: #FCFFE7 solid 6px;}
+
+.formulario{
+    margin: 60px;
+    background-color: #e0d8b049;
+    padding: 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
+}
+
+.formulario input{
+    margin: 5px;
+}
+
+.geo{
+    margin: 30px;
+}
+
+.top{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+.top i{ font-size: 50px;
+color: #2b2b2b;
+opacity: 50%;}
+
+.top i:hover{ font-size: 55px;
+opacity: 100%;
+transition: ease-in-out 0.5s;}
+
