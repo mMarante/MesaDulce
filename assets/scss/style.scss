@@ -1,0 +1,202 @@
+@import"colors";
+
+
+*{padding: 0px;
+    margin: 0px;}
+    
+    .logo { height: 70px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.233);
+
+    &:hover{transform: scale(1.1);
+        transition: all 0.5s;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.582);}
+
+    }
+    
+    .alert{text-align: center;}
+    
+    .carousel-inner{
+        img{
+        height: 420px;
+        width: 100%;
+        object-fit: cover;}
+        }
+    
+    .carta{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+    img{
+        width: 220px;
+        height: 210px;
+        object-fit: cover;}
+
+        &:hover{
+            
+            img{ filter: grayscale(100%);
+                transition: all 0.5s;}
+            
+            border: solid 2px $color__detalle;
+            border-radius: 10px;}
+    }
+    
+    .boton__carta{ 
+        margin: 5px;
+        padding: 7px 20px;
+        border-radius: 5px;
+        background-color: $color__letra;
+        text-decoration: none;
+        color: black;
+        
+        &:hover{
+        background-color: $color__detalle;
+        color: $color__letra;
+        transition: all 0.5s;
+            }
+        }
+    
+    .separador{
+        background-color: $color__fondo;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 10px;
+    }
+    
+    .social{
+        background: $color__fondo;
+        box-shadow: #2b2b2b 0 10px 30px;
+    
+        a{
+        opacity: 50%;
+        
+        &:hover{
+            opacity: 100%;
+            transition: all 1s;
+            }
+
+        }
+    }
+    
+    
+    
+    .copy{
+        background-color: $color__detalle;
+        color: $color__letra;
+        text-align: center;   
+    
+        a{ color: $color__letra;}
+
+    }
+    
+    .navegador{background-color: $color__fondo;
+    color: $color__letra;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.342);}
+    
+    .parallax{ background-image: url(../img/main.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 60px;
+        padding-bottom: 90px;}
+    
+    .cartel__presentacion{
+      
+      background-color: $color__dark;
+      margin-top: 50px;
+      padding: 50px 80px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      color:rgb(46, 41, 31);   
+    }
+    
+    .historia{
+        display: flex;
+        flex-wrap: wrap;
+        border: $color__fondo 3px solid;
+    
+        &:hover {
+            
+            img{ 
+            
+            filter: grayscale(100%);
+            transition: all 1s; }
+    
+            }
+        }
+    
+     
+    
+    
+    .receta{ border-top: solid 3px $color__fondo;
+        padding: 30px;
+        border-bottom: solid $color__fondo 5px;
+        
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    
+    }
+    
+    
+    .video__container {
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url(../img/textura.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .video{ margin: 20px;
+    border: #FCFFE7 solid 6px;}
+    
+    .formulario{
+        margin: 60px;
+        background-color: $color__dark;
+        padding: 50px;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
+    
+        input{
+            margin: 5px;
+        }
+    
+    }
+    
+    
+    .geo{
+        margin: 30px;
+    }
+    
+    .top{
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+    
+        i{ font-size: 50px;
+            color: $color__dark;
+            opacity: 50%;
+        
+            &:hover{ font-size: 55px;
+                opacity: 100%;
+                transition: ease-in-out 0.5s;}
+            }
+    
+     }
+    
+
+    
+    
