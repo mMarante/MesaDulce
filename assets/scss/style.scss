@@ -1,5 +1,7 @@
 @import"colors";
-
+@import"boton";
+@import"fuentes";
+@import"social";
 
 *{padding: 0px;
     margin: 0px;}
@@ -43,25 +45,8 @@
             border-radius: 10px;}
     }
     
-    .boton__carta{ 
-        margin: 5px;
-        padding: 7px 20px;
-        border-radius: 5px;
-        background-color: $color__letra;
-        text-decoration: none;
-        color: black;
-        
-        &:hover{
-        background-color: $color__detalle;
-        color: $color__letra;
-        transition: all 0.5s;
-            }
-        }
-    
     .separador{
         background-color: $color__fondo;
-    text-align: center;
-    letter-spacing: 10px;
     padding: 10px;
     }
     
@@ -175,7 +160,6 @@
         }
     
     }
-    
     
     .geo{
         margin: 30px;

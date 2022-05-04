@@ -1,0 +1,12 @@
+$redes: (
+    Facebook: blue,
+    Instagram: red,
+    Whatsapp: green,
+    Youtube: red,
+);
+
+@each $red, $color in $redes{
+    .btn__#{$red}{
+        color: $color;
+    }
+}

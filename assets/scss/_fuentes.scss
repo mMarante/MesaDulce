@@ -1,0 +1,18 @@
+@mixin fontSize($size, $weight){
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.titulo {
+ @include fontSize(2rem, bold);
+}
+
+.texto__cartas{
+@include fontSize(1rem, 100)
+}
+
+.texto__separador{
+@include fontSize(1rem, 200);
+letter-spacing: 10px;
+text-align: center;
+}

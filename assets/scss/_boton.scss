@@ -1,0 +1,30 @@
+.boton{
+    background-color: $color__fondo;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid $color__dark;
+    text-decoration: none;
+    padding: 7px 20px;
+
+
+    &:hover {
+        filter: opacity(50%);
+        transition: all 0.5s
+    }
+}
+
+.boton__carta{
+    @extend .boton;
+    margin: 5px;
+    &:hover{
+        background-color: $color__detalle;
+        color: $color__letra;
+
+    }
+}
+
+
+
+    
+

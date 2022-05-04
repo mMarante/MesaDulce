@@ -1,3 +1,47 @@
+.boton, .boton__carta {
+  background-color: #E0D8B0;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid #dbb75b5e;
+  text-decoration: none;
+  padding: 7px 20px; }
+  .boton:hover, .boton__carta:hover {
+    filter: opacity(50%);
+    transition: all 0.5s; }
+
+.boton__carta {
+  margin: 5px; }
+  .boton__carta:hover {
+    background-color: #CE9461;
+    color: #FCFFE7; }
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold; }
+
+.texto__cartas {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.texto__separador {
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 10px;
+  text-align: center; }
+
+.btn__Facebook {
+  color: blue; }
+
+.btn__Instagram {
+  color: red; }
+
+.btn__Whatsapp {
+  color: green; }
+
+.btn__Youtube {
+  color: red; }
+
 * {
   padding: 0px;
   margin: 0px; }
@@ -35,22 +79,8 @@
       filter: grayscale(100%);
       transition: all 0.5s; }
 
-.boton__carta {
-  margin: 5px;
-  padding: 7px 20px;
-  border-radius: 5px;
-  background-color: #FCFFE7;
-  text-decoration: none;
-  color: black; }
-  .boton__carta:hover {
-    background-color: #CE9461;
-    color: #FCFFE7;
-    transition: all 0.5s; }
-
 .separador {
   background-color: #E0D8B0;
-  text-align: center;
-  letter-spacing: 10px;
   padding: 10px; }
 
 .social {
