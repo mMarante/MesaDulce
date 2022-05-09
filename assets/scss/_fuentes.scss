@@ -7,6 +7,11 @@
  @include fontSize(2rem, bold);
 }
 
+.subtitulo {
+    @include fontSize(1rem, italic);
+    color: rgb(70, 70, 70);
+   }
+
 .texto__cartas{
 @include fontSize(1rem, 100)
 }

@@ -20,6 +20,11 @@
   font-size: 2rem;
   font-weight: bold; }
 
+.subtitulo {
+  font-size: 1rem;
+  font-weight: italic;
+  color: #464646; }
+
 .texto__cartas {
   font-size: 1rem;
   font-weight: 100; }
@@ -81,7 +86,8 @@
 
 .separador {
   background-color: #E0D8B0;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 .social {
   background: #E0D8B0;
