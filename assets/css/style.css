@@ -173,7 +173,10 @@
     margin: 5px; }
 
 .geo {
-  margin: 30px; }
+  background-color: #E0D8B0;
+  padding: 10%;
+  margin: 30px;
+  border-radius: 10px; }
 
 .top {
   position: fixed;
@@ -187,3 +190,18 @@
       font-size: 55px;
       opacity: 100%;
       transition: ease-in-out 0.5s; }
+
+@media (max-width: 720px) {
+  iframe {
+    height: 100%;
+    width: 100%; }
+  #contact__map {
+    height: 100%;
+    width: 100%; }
+  h1.titulo {
+    text-align: center;
+    font-size: 22px; }
+  .formulario {
+    margin: 5%; }
+  .video__container {
+    margin: 0%; } }
